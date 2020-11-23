@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  macOS Latest:
+  macOS_Latest:
 
     runs-on: macos-latest
 
@@ -17,7 +17,7 @@ jobs:
       run: swift build -v
     - name: Run tests
       run: swift test -v
-  Linux:
+  Ubunut_Latest:
     runs-on: ubuntu-latest
   
     steps:
